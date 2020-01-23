@@ -1,66 +1,67 @@
+/* body */
 body{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* navigation logo section */
-nav{
-    background:whitesmoke;
-    height: auto;
-    padding: 1rem;
-}
-nav header{
-    display: inline-block;
-    margin-left: 20em;
-}
-nav header a img{
-    height: 30px;
-    width: 30px;
-}
-nav header h1{
-    display: inline;
-    color: teal;
-}
-/* navigation link section */
-nav section{
-    float: right;
-    margin-right: 20rem;
-}
-
-nav section ul{
-    list-style-type: none;
-}
-
-nav section ul li{
-    display: inline-block;
-    padding-right:1rem;
-}
-nav section ul li a{
-    text-decoration: none;
-}
-nav section ul li a:hover{
-    color: red;
+/* navigation */
+.nav-link:hover{
+    border: 0.5px solid #4dabf7;
+    border-radius: 10px;
 }
 /* section 1 */
-main section{
-    text-align: center;
-    padding: 5rem 20rem 5rem 20rem;
-    margin: 0 auto;
-}
-main section .heading-2{
-    color: teal;
-}
-main section p{
-    line-height: 1.5rem;
+.section1{
+    padding: 4rem;
 }
 /* section 2 */
-main .section2{
-    display: flex;
-    background-color: whitesmoke;
-    margin: auto;
+.icon{
+    font-size: 3rem;
+    color: white;
 }
-main .section2 div{
-    /* flex-direction: row; */
-    border:2px solid red;
-    width: 400px;
+.icon-container{
+    background-color: #4dabf7;
+    display: inline-block;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.section2{
+    background-color: whitesmoke;
+    padding: 4rem;
+}
+/* section 3 */
+.section3{
+    margin: 4rem;
+}
+.img-fluid{
+    height: 350px;
+    width: 350px;
+    margin: 1rem;
+}
+.img-fluid:hover{
+    opacity: 0.5;
+}
+/* section 4 */
+.section4{
+    background: url("/static/images/form-back.jpg");
+    background-size: cover;
+}
+.form-control{
+    background-color: transparent;
+    margin: -0.5rem;
+}
+.form-check-input{
+    background-color: grey;
+}
+.btn-send{
+    float: right;
+}
+.btn{
+    color: whitesmoke;
+}
+/* footer */
+.social-media-icon i{
+    font-size: 2rem;
+}
+.social-media-icon i:hover{
+    color: #4dabf7;
 }
