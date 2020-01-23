@@ -1,0 +1,80 @@
+/* cascading style sheet */
+
+/* latest version css3 */
+
+/* ====================================================inline css==================================================== */
+/* <h1 style="color:red;"></h1> */
+
+/* ====================================================internal css==================================================== */
+/* <style>
+    h1{
+        color:red;
+    }
+</style> */
+
+/* ====================================================external css==================================================== */
+/* <link href="app.css"/> */
+/* app.css */
+/* h2{
+    color:red;
+} */
+
+/* ====================================================css selectors==================================================== */
+/* tag selector h1{}*/
+/* class selector .class-name{} */
+/* id selector #id-name{} */
+/* attribute selector [type='radio']{margin:20px} */
+
+/* ====================================================color==================================================== */
+/* color-name */
+/* rgb */
+/* hex-code */
+/* rgba */
+
+/* ==================================================== font style==================================================== */
+/* font-size:10px; px,rem,em,% */
+/* font-family:monospace,option2,option2 */
+
+/* ====================================================image style==================================================== */
+/* widht:100px; */
+/* height:100px; */
+
+/* ====================================================border style==================================================== */
+/* border-style:solid|dotted; */
+/* border-color:Red; */
+/* border-width:10px; */
+/* border-radius:10px; */
+
+/* ====================================================background style==================================================== */
+/* background-color:blue */
+
+/* ====================================================box====================================================*/
+/* padding:top right bottom left */
+/* margin :top right bottom left */
+
+/* ====================================================selector priority==================================================== */
+/* id-name>class-name>tag-name */
+/* inline>internal>external */
+/* !important = most important style and you must apply this style */
+
+/* ====================================================css variables==================================================== */
+/* --variable-name:value; */
+/* style:var(--variable-name,fallback-value) */
+/* :root{ --variable1; --variable2,--variable3... } */
+
+/* ====================================================media queries==================================================== */
+/* @media (condition){apply changes} */
+
+/* ====================================================css grid==================================================== */
+/* display:grid */
+/* grid-template-columns:col1 col2 col3; */
+/* grid-template-rows:row1 row2px row3fr; */
+/* grid-column-gap:value; */
+/* grid-row-gap:value; */
+/* grid-gap:row column; */
+
+/* ====================================================flexbox==================================================== */
+/* display:flex */
+/* flex-direction:row/column/row-reverse/column-reverse */
+
+
